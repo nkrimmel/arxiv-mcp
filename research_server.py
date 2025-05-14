@@ -97,7 +97,46 @@ def extract_info(paper_id: str) -> str:
     
     return f"There's no saved information related to paper {paper_id}."
 
-
+@mcp.tool()
+def download_pdf(paper_id: str, download_path: str) -> str:
+    """
+    Download the PDF of a paper given its paper_id and save it in the corresponding topic directory.
+    
+    Args:
+        paper_id: The arXiv paper ID
+        download_path: The path where the PDF should be saved
+    
+    Returns:
+        Path to the downloaded PDF or an error message if not found
+    """
+    for item in os.listdir(PAPER_DIR):
+        item_path = os.path.join(PAPER_DIR, item)
+        if os.path.isdir(item_path):
+            file_path = os.path.join(item_path, "papers_info.json")
+            if os.path.isfile(file_path):
+                try:
+                    with open(file_path, "r") as json_file:
+                        papers_info = json.load(json_file)
+                        if paper_id in papers_info:
+                            pdf_url = papers_info[paper_id].get("pdf_url")
+                            if not pdf_url:
+                                return f"No PDF URL found for paper {paper_id}."
+                            # Save PDF directly to the specified download_path with the paper_id as filename
+                            pdf_path = os.path.join(download_path, f"{paper_id}.pdf")
+                            try:
+                                import requests
+                                response = requests.get(pdf_url)
+                                if response.status_code == 200:
+                                    with open(pdf_path, "wb") as f:
+                                        f.write(response.content)
+                                    return f"PDF downloaded to {pdf_path}"
+                                else:
+                                    return f"Failed to download PDF: HTTP {response.status_code}"
+                            except Exception as e:
+                                return f"Error downloading PDF: {str(e)}"
+                except (FileNotFoundError, json.JSONDecodeError):
+                    continue
+    return f"Paper ID {paper_id} not found in any topic directory."
 
 if __name__ == "__main__":
     # Initialize and run the server
