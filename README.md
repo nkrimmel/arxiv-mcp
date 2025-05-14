@@ -27,6 +27,10 @@ This project provides a Model Context Protocol (MCP) server for searching, retri
      download_pdf("2409.07415v2", "/Users/yourname/Desktop")
      ```
 
+## Example Prompt
+
+"Look for the 10 most relevant arxiv papers with the topic of AI in Healthcare and download the Papers as PDF on my desktop."
+
 ## Project Structure
 - `research_server.py` — Main MCP server and tool definitions
 - `papers/` — Directory where paper metadata is stored, organized by topic
