@@ -62,5 +62,20 @@ def download_pdf():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/delete_pdf', methods=['DELETE'])
+def delete_pdf():
+    pdf_path = request.args.get('pdf_path')
+    if not pdf_path:
+        return jsonify({"error": "PDF path is required"}), 400
+
+    try:
+        if os.path.exists(pdf_path):
+            os.remove(pdf_path)
+            return jsonify({"message": "PDF deleted successfully"}), 200
+        else:
+            return jsonify({"error": "File not found"}), 404
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == '__main__':
     app.run(debug=True)
