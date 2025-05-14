@@ -1,0 +1,56 @@
+{
+  "2408.09224v2": {
+    "title": "Neuro-Symbolic AI for Military Applications",
+    "authors": [
+      "Desta Haileselassie Hagos",
+      "Danda B. Rawat"
+    ],
+    "summary": "Artificial Intelligence (AI) plays a significant role in enhancing the\ncapabilities of defense systems, revolutionizing strategic decision-making, and\nshaping the future landscape of military operations. Neuro-Symbolic AI is an\nemerging approach that leverages and augments the strengths of neural networks\nand symbolic reasoning. These systems have the potential to be more impactful\nand flexible than traditional AI systems, making them well-suited for military\napplications. This paper comprehensively explores the diverse dimensions and\ncapabilities of Neuro-Symbolic AI, aiming to shed light on its potential\napplications in military contexts. We investigate its capacity to improve\ndecision-making, automate complex intelligence analysis, and strengthen\nautonomous systems. We further explore its potential to solve complex tasks in\nvarious domains, in addition to its applications in military contexts. Through\nthis exploration, we address ethical, strategic, and technical considerations\ncrucial to the development and deployment of Neuro-Symbolic AI in military and\ncivilian applications. Contributing to the growing body of research, this study\nrepresents a comprehensive exploration of the extensive possibilities offered\nby Neuro-Symbolic AI.",
+    "pdf_url": "http://arxiv.org/pdf/2408.09224v2",
+    "published": "2024-08-17"
+  },
+  "2502.03376v1": {
+    "title": "Ethical Considerations for the Military Use of Artificial Intelligence in Visual Reconnaissance",
+    "authors": [
+      "Mathias Anneken",
+      "Nadia Burkart",
+      "Fabian Jeschke",
+      "Achim Kuwertz-Wolf",
+      "Almuth Mueller",
+      "Arne Schumann",
+      "Michael Teutsch"
+    ],
+    "summary": "This white paper underscores the critical importance of responsibly deploying\nArtificial Intelligence (AI) in military contexts, emphasizing a commitment to\nethical and legal standards. The evolving role of AI in the military goes\nbeyond mere technical applications, necessitating a framework grounded in\nethical principles. The discussion within the paper delves into ethical AI\nprinciples, particularly focusing on the Fairness, Accountability,\nTransparency, and Ethics (FATE) guidelines. Noteworthy considerations encompass\ntransparency, justice, non-maleficence, and responsibility. Importantly, the\npaper extends its examination to military-specific ethical considerations,\ndrawing insights from the Just War theory and principles established by\nprominent entities. In addition to the identified principles, the paper\nintroduces further ethical considerations specifically tailored for military AI\napplications. These include traceability, proportionality, governability,\nresponsibility, and reliability. The application of these ethical principles is\ndiscussed on the basis of three use cases in the domains of sea, air, and land.\nMethods of automated sensor data analysis, eXplainable AI (XAI), and intuitive\nuser experience are utilized to specify the use cases close to real-world\nscenarios. This comprehensive approach to ethical considerations in military AI\nreflects a commitment to aligning technological advancements with established\nethical frameworks. It recognizes the need for a balance between leveraging\nAI's potential benefits in military operations while upholding moral and legal\nstandards. The inclusion of these ethical principles serves as a foundation for\nresponsible and accountable use of AI in the complex and dynamic landscape of\nmilitary scenarios.",
+    "pdf_url": "http://arxiv.org/pdf/2502.03376v1",
+    "published": "2025-02-05"
+  },
+  "2211.06326v3": {
+    "title": "Bad, mad, and cooked: Moral responsibility for civilian harms in human-AI military teams",
+    "authors": [
+      "Susannah Kate Devitt"
+    ],
+    "summary": "This chapter explores moral responsibility for civilian harms by\nhuman-artificial intelligence (AI) teams. Although militaries may have some bad\napples responsible for war crimes and some mad apples unable to be responsible\nfor their actions during a conflict, increasingly militaries may 'cook' their\ngood apples by putting them in untenable decision-making environments through\nthe processes of replacing human decision-making with AI determinations in war\nmaking. Responsibility for civilian harm in human-AI military teams may be\ncontested, risking operators becoming detached, being extreme moral witnesses,\nbecoming moral crumple zones or suffering moral injury from being part of\nlarger human-AI systems authorised by the state. Acknowledging military ethics,\nhuman factors and AI work to date as well as critical case studies, this\nchapter offers new mechanisms to map out conditions for moral responsibility in\nhuman-AI teams. These include: 1) new decision responsibility prompts for\ncritical decision method in a cognitive task analysis, and 2) applying an AI\nworkplace health and safety framework for identifying cognitive and\npsychological risks relevant to attributions of moral responsibility in\ntargeting decisions. Mechanisms such as these enable militaries to design\nhuman-centred AI systems for responsible deployment.",
+    "pdf_url": "http://arxiv.org/pdf/2211.06326v3",
+    "published": "2022-10-31"
+  },
+  "2106.04338v1": {
+    "title": "Engines of Power: Electricity, AI, and General-Purpose Military Transformations",
+    "authors": [
+      "Jeffrey Ding",
+      "Allan Dafoe"
+    ],
+    "summary": "Major theories of military innovation focus on relatively narrow\ntechnological developments, such as nuclear weapons or aircraft carriers.\nArguably the most profound military implications of technological change,\nhowever, come from more fundamental advances arising from general purpose\ntechnologies, such as the steam engine, electricity, and the computer. With few\nexceptions, political scientists have not theorized about GPTs. Drawing from\nthe economics literature on GPTs, we distill several propositions on how and\nwhen GPTs affect military affairs. We call these effects general-purpose\nmilitary transformations. In particular, we argue that the impacts of GMTs on\nmilitary effectiveness are broad, delayed, and shaped by indirect productivity\nspillovers. Additionally, GMTs differentially advantage those militaries that\ncan draw from a robust industrial base in the GPT. To illustrate the\nexplanatory value of our theory, we conduct a case study of the military\nconsequences of electricity, the prototypical GPT. Finally, we apply our\nfindings to artificial intelligence, which will plausibly cause a profound\ngeneral-purpose military transformation.",
+    "pdf_url": "http://arxiv.org/pdf/2106.04338v1",
+    "published": "2021-06-08"
+  },
+  "2411.06336v1": {
+    "title": "Balancing Power and Ethics: A Framework for Addressing Human Rights Concerns in Military AI",
+    "authors": [
+      "Mst Rafia Islam",
+      "Azmine Toushik Wasi"
+    ],
+    "summary": "AI has made significant strides recently, leading to various applications in\nboth civilian and military sectors. The military sees AI as a solution for\ndeveloping more effective and faster technologies. While AI offers benefits\nlike improved operational efficiency and precision targeting, it also raises\nserious ethical and legal concerns, particularly regarding human rights\nviolations. Autonomous weapons that make decisions without human input can\nthreaten the right to life and violate international humanitarian law. To\naddress these issues, we propose a three-stage framework (Design, In\nDeployment, and During/After Use) for evaluating human rights concerns in the\ndesign, deployment, and use of military AI. Each phase includes multiple\ncomponents that address various concerns specific to that phase, ranging from\nbias and regulatory issues to violations of International Humanitarian Law. By\nthis framework, we aim to balance the advantages of AI in military operations\nwith the need to protect human rights.",
+    "pdf_url": "http://arxiv.org/pdf/2411.06336v1",
+    "published": "2024-11-10"
+  }
+}
